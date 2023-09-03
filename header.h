@@ -45,7 +45,7 @@ void get_directory_list(arg_t* args, flag_t* flag);
 void create_unique_path(char* dst, char *data, char *arg);
 void print_directory_list(node_t *head, node_t *sub_head, int count);
 
-/* function prototypes in linklist.c */
+/* function prototypes in link_list.c */
 node_t *create_node(char* name, char* arg);
 void insert_at_head(node_t **head, node_t *node_to_insert);
 void swap_nodes(node_t *a, node_t *b);

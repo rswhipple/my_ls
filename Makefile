@@ -1,5 +1,5 @@
 TARGET = my_ls
-SRCS = my_ls.c parser.c linklist.c sort.c
+SRCS = my_ls.c parser.c link_list.c sort.c
 OBJS = $(SRCS:.c=.o)
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -g3 -fsanitize=address --pedantic-errors
